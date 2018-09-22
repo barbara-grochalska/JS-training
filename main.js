@@ -1,14 +1,13 @@
-//const i let - stałe
+//truthy falsey - jesli cos zawiera to jest true
 
-//ES5 only;
-var a = 'foo'; //nadpisanie mozliwe1
+let a  = '';
+;
+if(a) {
+    console.log('yes');
+}
 
-//ES6 only;
-const BAR = "I'm bar"; //nadpisanie powinno byc niemożliwe
-
-let baz = "boo"; //let moze byc nadpisany - nie mozna go zadeklarowac ponownie let baz="goo"; blokowy
-baz = "booze";
-
-console.log(baz);
+else{
+    console.log('false');
+}
 
 
