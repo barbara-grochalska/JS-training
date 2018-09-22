@@ -1,13 +1,39 @@
-//truthy falsey - jesli cos zawiera to jest true
+//es5 style:
 
-let a  = '';
-;
-if(a) {
-    console.log('yes');
+function foo(arg){
+    return arg;
+};
+
+var bar =function(arg) {
+    return arg;
 }
 
-else{
-    console.log('false');
+console.log('Result foo:', foo("hello"));
+console.log('Result bar:', bar("hello, bar"));
+
+
+//es6
+
+const foo2 = (arg) => arg;
+const foo3 = (arg) => {
+    return arg;
 }
 
 
+var foo = "bla"
+
+function whatIsTheType(elem) {
+
+    
+    return 'zmiennq ' + elem + ' typem jest: ' + typeof elem;
+    
+} 
+
+console.log(whatIsTheType("ddd"));
+console.log(whatIsTheType(1));
+console.log(whatIsTheType([]));
+console.log(whatIsTheType(
+    []
+));
+console.log(whatIsTheType(true));
+console.log(whatIsTheType(foo));
