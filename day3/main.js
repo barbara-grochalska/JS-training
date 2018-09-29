@@ -144,5 +144,18 @@ function randomEven(){
 
     return n;
 }
+//console.log(randomEven());
+const gr = [];
+const length = randomEven();
 
-console.log(randomEven());
+for (let i =0; i<length; i++);
+gr.push(Math.floor(Math.random()*100));
+
+const x = gr.slice(length/2-2, -length/2+2);
+
+console.log(gr,x);
+
+var bla = [1,2,3,4,5,6,7,8,9,10];
+//bla.indexOf(9);
+
+console.log(bla.indexOf(9));
