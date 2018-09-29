@@ -116,3 +116,33 @@ const b = a.slice(0, a.length);
 b[3].push('d');
 console.log(a,b);
 
+var zz = ['one', 'two', 'four', 'bryk', 'notgrr'];
+// var slice = zz.slice(1,-1);
+
+
+var one = [zz.pop()]; //usuwa z zz ostatni element , ale wby wyciagnac i nie naruszyc zz.slice(z.length - 1);
+var two = [zz[1]];
+
+
+
+const all = one.concat(two);
+
+
+console.log(all);
+
+/******************* */
+var myArray= [];
+var randomEven = 2 *(Math.floor(Math.random() * 11)+1);
+
+
+function randomEven(){
+    let n;
+
+    while(!n || n%2 !== 0){
+        n = Math.floor(Math.random() * 100)+6;
+    }
+
+    return n;
+}
+
+console.log(randomEven());
