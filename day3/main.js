@@ -19,10 +19,17 @@
 
 var manyNumbers = [];
 
-// for(let i=0; i<10; i++){
-//     const myNumbers = (Math.floor(Math.random() * 1000)+1);
-//     manyNumbers.push(myNumbers);
-// }
+for(let i=0; i<10; i++){
+    const myNumbers = (Math.floor(Math.random() * 1000)+1);
+    manyNumbers.push(myNumbers);
+        if (i>1){
+        break;
+   }
+   
+}
+console.log(manyNumbers);
+
+
 
 // console.log(manyNumbers);
 
@@ -36,8 +43,8 @@ var manyNumbers = [];
 // }
 
 
-// const myArray=[1,2,5,6,8,9,2,7,5,9];
-// var i=0;
+const myArray=[1,2,5,6,8,9,2,7,5,9];
+var i=0;
 
 // while(i<myArray.length){
 //     console.log(myArray[i]);
@@ -45,13 +52,15 @@ var manyNumbers = [];
 // }
 
 
-let i = 0;
-while (i<5) {
-    i++;
-    if (i===3){
-        break;
-    }
-    console.log(i);
 
-}
+
+// let i = 0;
+// while (i<5) {
+//     i++;
+//     if (i===3){
+//         break;
+//     }
+//     console.log(i);
+
+// }
 
