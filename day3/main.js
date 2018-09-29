@@ -36,16 +36,22 @@ var manyNumbers = [];
 // }
 
 
-const myArray=[1,2,5,6,8,9,2,7,5,9];
-var i=0;
+// const myArray=[1,2,5,6,8,9,2,7,5,9];
+// var i=0;
 
-while(i<myArray.length){
-    console.log(myArray[i]);
+// while(i<myArray.length){
+//     console.log(myArray[i]);
+//     i++;
+// }
+
+
+let i = 0;
+while (i<5) {
     i++;
+    if (i===3){
+        break;
+    }
+    console.log(i);
+
 }
-
-
-
-
-
 
