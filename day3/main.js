@@ -32,11 +32,48 @@
 
 //OBJECTS
 
-var myCar = {
-    make: 'Ford',
-    model: 'Mustang',
-    year: 1955
+// var myCar = {
+//     make: 'Ford',
+//     model: 'Mustang',
+//     year: 1955,
+//     parts: {
+//         engine: ["gm 123"],
+//         body: ['body1']
+//     },
 
+//     sound: function() { alert('wrrr')}
+// };
+    
+
+   // console.log(myCar.sound());
+
+  /**FUNCTION */
+
+  //task 2
+
+//   function sum(num1, num2){
+//       return num1 +num2;
+//   }
+
+//   console.log(sum(100,5));
+
+//   // const sum = (num1, num2)=> num1+num2; funkcja strzałkowa
+
+// var sum = 3;
+// function foo(){
+//   var sum =5; // local
+// }
+// foo();
+
+// console.log(sum); //3
+
+/****************** */
+
+(function (a,b) {
+    var sum = a*b;
+    console.log(sum);
 }
+)(10,2)
 
-console.log(myCar.model);
+
+
